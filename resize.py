@@ -22,7 +22,7 @@ avg_height=sum(height_of_images)/len(height_of_images)
 avg_width=sum(width_of_images)/len(width_of_images)
 
 
-def resize(folder):
+def resize(folder): 
 	#read files from folder
 	for filename in os.listdir(folder):
 		img = cv2.imread(os.path.join(folder,filename),0)
