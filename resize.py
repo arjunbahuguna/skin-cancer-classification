@@ -8,8 +8,8 @@ height_of_images=[]
 width_of_images=[]
 
 def find_avg_dim(folder):
-  #read files from folder
-    for filename in os.listdir(folder):
+ 	#read files from folder
+    	for filename in os.listdir(folder):
 		img = cv2.imread(os.path.join(folder,filename),0)    #accepts grayscale input, remove 0 to take RBG input
 		if img is not None:
         		#extract height and width
