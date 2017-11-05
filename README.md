@@ -8,3 +8,4 @@ load_data.py => This Files loads input data to test/detect Cancer.
 pretraining.py => This file sets up the neural network model, so that it can work as a classifier.  
 resize.py => This file will automatically resize and grayscale the input photographs so that they can be processed for the easier use of the model.  
 
+Contributors: Kevin, Vaishnavi, Sayand, Arjun
