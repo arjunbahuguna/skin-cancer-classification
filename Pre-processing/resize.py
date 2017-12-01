@@ -1,4 +1,4 @@
-#script to normalize dimensions across image dataset
+#This script normalizes dimensions of images across entire dataset
 
 import cv2
 import os
